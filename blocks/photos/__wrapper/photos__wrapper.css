@@ -1,0 +1,19 @@
+.photos__wrapper {
+  width: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  display: grid;
+  grid-template-columns: repeat(8, 1fr);
+  grid-template-rows: repeat(4, 1fr);
+  filter: opacity(.5);
+  z-index: 0;
+}
+
+@media all and (max-width: 1200px) {
+  .photos__wrapper {
+    position: unset;
+    width: unset;
+    filter: unset;
+  }
+}

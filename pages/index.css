@@ -2,6 +2,7 @@
 @import url('../fonts/panton.css');
 @import url('../fonts/proxima-nova.css');
 @import url('../blocks/header/header.css');
+@import url('../blocks/photos/photos.css');
 
 .body {
   margin: 0 auto 0;

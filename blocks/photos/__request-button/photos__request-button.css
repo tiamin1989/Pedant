@@ -1,0 +1,22 @@
+.photos__request-button {
+  width: 275px;
+  height: 51px;
+  background: #3388D7;
+  box-shadow: 0px 5px 15px rgba(60, 153, 238, .5);
+  border-radius: 10px;
+  font-family: 'Proxima Nova', Arial, Helvetica, sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 22px;
+  color: #fff;
+  cursor: pointer;
+}
+
+.photos__request-button:hover {
+  filter: opacity(.7);
+}
+
+.photos__request-button:focus {
+  outline: none;
+}

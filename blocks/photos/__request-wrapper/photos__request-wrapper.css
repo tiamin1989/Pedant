@@ -1,0 +1,12 @@
+.photos__request-wrapper {
+  margin: 0 0 0 30px;
+  display: flex;
+  flex-direction: column;
+}
+
+@media all and (max-width: 630px) {
+  .photos__request-wrapper {
+    text-align: center;
+    margin: 25px 0 0;
+  }
+}

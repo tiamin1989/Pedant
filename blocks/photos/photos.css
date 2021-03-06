@@ -1,0 +1,21 @@
+@import url('./__request-button/photos__request-button.css');
+@import url('./__request-contact/photos__request-contact.css');
+@import url('./__request-wrapper/photos__request-wrapper.css');
+@import url('./__request/photos__request.css');
+@import url('./__sentence-description/photos__sentence-description.css');
+@import url('./__sentence-title/photos__sentence-title.css');
+@import url('./__sentence/photos__sentence.css');
+@import url('./__wrapper/photos__wrapper.css');
+@import url('./__photo/photos__photo.css');
+@import url('./__request-contact/__request-contact_regular/photos__request-contact_regular.css');
+
+.photos {
+  padding: 35px 0 0;
+  position: relative;
+}
+
+@media all and (max-width: 1200px) {
+  .photos {
+    padding: 0;
+  }
+}
