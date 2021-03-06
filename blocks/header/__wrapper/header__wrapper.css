@@ -1,0 +1,6 @@
+.header__wrapper {
+  padding: 0 48px 0;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}

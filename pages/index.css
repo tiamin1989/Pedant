@@ -1,0 +1,12 @@
+@import url('../vendor/normalize.css');
+@import url('../fonts/panton.css');
+@import url('../fonts/proxima-nova.css');
+@import url('../blocks/header/header.css');
+
+.body {
+  margin: 0 auto 0;
+  max-width: 1440px;
+  background-color: #fff;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}

@@ -1,0 +1,20 @@
+@import url('./__select-item/header__select-item.css');
+@import url('./__select/header__select.css');
+@import url('./__wrapper/header__wrapper.css');
+@import url('./__logo-image/header__logo-image.css');
+@import url('./__logo-title/header__logo-title.css');
+@import url('./__logo-title/_logo-title_blue/header__logo-title_blue.css');
+@import url('./__nav-list-item/header__nav-list-item.css');
+@import url('./__nav-list-link/header__nav-list-link.css');
+@import url('./__nav-list/header__nav-list.css');
+@import url('./__nav/header__nav.css');
+@import url('./__contact/header__contact.css');
+@import url('./__select-wrapper/header__select-wrapper.css');
+
+
+.header {
+  padding: 44px 92px 39px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
