@@ -1,0 +1,10 @@
+.header__main-wrapper {
+  width: 100%;
+  display: flex;
+}
+
+@media all and (max-width: 1200px) {
+  .header__main-wrapper {
+    flex-direction: column;
+  }
+}

@@ -19,3 +19,21 @@ document.getElementById('select').addEventListener(
   function () { select.restoreSelect(); },
   false
 );
+
+document.querySelector('.header__hamburger').addEventListener(
+  'click',
+  function() {
+    document.querySelector('.header__hamburger-nav-list').style.visibility = 'visible';
+    document.querySelector('.header__hamburger-close').style.display = 'block';
+  },
+  false
+);
+
+document.querySelector('.header__hamburger-close').addEventListener(
+  'click',
+  function() {
+    document.querySelector('.header__hamburger-nav-list').style.visibility = 'hidden';
+    document.querySelector('.header__hamburger-close').style.display = 'none';
+  },
+  false
+);

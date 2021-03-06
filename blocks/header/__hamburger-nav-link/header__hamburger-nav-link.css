@@ -1,0 +1,14 @@
+.header__hamburger-nav-link {
+  white-space: nowrap;
+  font-family: 'Proxima Nova', Arial, Helvetica, sans-serif;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 18px;
+  line-height: 150%;
+  color: #fff;
+}
+
+.header__hamburger-nav-link:hover {
+  color: #8B8B8B;
+}
+

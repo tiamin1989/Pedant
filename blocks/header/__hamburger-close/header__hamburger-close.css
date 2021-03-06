@@ -1,0 +1,15 @@
+.header__hamburger-close {
+  display: none;
+  font-size: 48px;
+  position: absolute;
+  top: 0;
+  right: 38px;
+  z-index: 1;
+  cursor: pointer;
+  color: #fff;
+}
+
+.header__hamburger-close:hover {
+  filter: opacity(.7);
+}
+

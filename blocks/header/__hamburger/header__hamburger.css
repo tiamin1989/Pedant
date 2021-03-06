@@ -1,0 +1,15 @@
+.header__hamburger {
+  cursor: pointer;
+  display: none;
+}
+
+.header__hamburger:hover {
+  filter: opacity(.7);
+}
+
+@media all and (max-width: 1200px) {
+  .header__hamburger {
+    display: block;
+    flex-direction: column;
+  }
+}

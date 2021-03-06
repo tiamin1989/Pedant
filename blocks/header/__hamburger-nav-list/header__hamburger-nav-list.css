@@ -1,0 +1,15 @@
+.header__hamburger-nav-list {
+  visibility: hidden;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  position: absolute;
+  top: 0;
+  left: 0;
+  text-align: center;
+  align-items: stretch;
+  cursor: pointer;
+}

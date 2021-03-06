@@ -10,11 +10,36 @@
 @import url('./__nav/header__nav.css');
 @import url('./__contact/header__contact.css');
 @import url('./__select-wrapper/header__select-wrapper.css');
-
+@import url('./__main-wrapper/header__main-wrapper.css');
+@import url('./__hamburger/header__hamburger.css');
+@import url('./__hamburger-nav-list/header__hamburger-nav-list.css');
+@import url('./__hamburger-close/header__hamburger-close.css');
+@import url('./__hamburger-nav-link/header__hamburger-nav-link.css');
+@import url('./__hamburger-nav-item/header__hamburger-nav-item.css');
 
 .header {
   padding: 44px 92px 39px;
   display: flex;
   align-items: center;
-  justify-content: space-between;
+  justify-content: center;
+  position: relative;
 }
+
+@media all and (max-width: 1200px) {
+  .header {
+    padding: 44px 45px 39px;
+  }
+}
+
+@media all and (max-width: 634px) {
+  .header {
+    padding: 44px 34px 39px 18px;
+  }
+}
+
+@media all and (max-width: 430px) {
+  .header {
+    padding: 44px 34px 39px 0px;
+  }
+}
+

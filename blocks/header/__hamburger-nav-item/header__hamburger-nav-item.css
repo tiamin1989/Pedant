@@ -1,0 +1,11 @@
+.header__hamburger-nav-item {
+  background: #000;
+}
+
+.header__hamburger-nav-item:not(first-child) {
+  padding-top: 15px;
+}
+
+.header__hamburger-nav-item:last-child {
+  padding-bottom: 15px;
+}

@@ -7,28 +7,37 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Частный мастер</title>
   <link rel="stylesheet" href="./pages/index.css">
+  <link rel="shortcut icon" href="./images/logo.svg" type="image/x-icon">
   <script type="module" src="./pages/index.js"></script>
 </head>
 
 <body class="body">
   <header class="header">
     <img class="header__logo-image" src="./images/logo.svg" alt="Логотип компании">
-    <p class="header__logo-title">Частный <span class="header__logo-title header__logo-title_blue">мастер</span></p>
-    <div class="header__wrapper">
-      <div class="header__select-wrapper">
-        <select class="header__select" id="select">
-          <option class="header__select-item">Москва</option>
-          <option class="header__select-item">Санкт-Петербург</option>
-        </select>
+    <div class="header__main-wrapper">
+      <p class="header__logo-title">Частный <span class="header__logo-title header__logo-title_blue">мастер</span></p>
+      <div class="header__wrapper">
+        <div class="header__select-wrapper">
+          <select class="header__select" id="select">
+            <option class="header__select-item">Москва</option>
+            <option class="header__select-item">Санкт-Петербург</option>
+          </select>
+        </div>
+        <nav class="header__nav">
+          <ul class="header__nav-list">
+            <li class="header__nav-list-item"><a href="#" class="header__nav-list-link">Вход / Регистрация</a></li>
+            <li class="header__nav-list-item"><a href="#" class="header__nav-list-link">Контакты</a></li>
+          </ul>
+        </nav>
       </div>
-      <nav class="header__nav">
-        <ul class="header__nav-list">
-          <li class="header__nav-list-item"><a href="#" class="header__nav-list-link">Вход / Регистрация</a></li>
-          <li class="header__nav-list-item"><a href="#" class="header__nav-list-link">Контакты</a></li>
-        </ul>
-      </nav>
+      <span class="header__contact">8 (800) 771-90-46</span>
     </div>
-    <span class="header__contact">8 (800) 771-90-46</span>
+    <img class="header__hamburger" src="./images/hamburger.svg" alt="Меню">
+    <ul class="header__hamburger-nav-list">
+      <li class="header__hamburger-nav-item"><a href="#" class="header__hamburger-nav-link">Вход / Регистрация</a></li>
+      <li class="header__hamburger-nav-item"><a href="#" class="header__hamburger-nav-link">Контакты</a></li>
+    </ul>
+    <span class="header__hamburger-close">×</span>
   </header>
 </body>
 
