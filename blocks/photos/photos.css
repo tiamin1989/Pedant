@@ -12,10 +12,19 @@
 .photos {
   padding: 35px 0 0;
   position: relative;
+  max-width: 1440px;
+  height: calc(100vw/2.436548223350254 - 35px);
+}
+
+@media all and (min-width: 1440px) {
+  .photos {
+    max-height: calc(541px + 15px);
+  }
 }
 
 @media all and (max-width: 1200px) {
   .photos {
     padding: 0;
+    height: unset;
   }
 }
