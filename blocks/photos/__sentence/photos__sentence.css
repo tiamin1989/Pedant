@@ -9,12 +9,18 @@
 
 @media all and (max-width: 1200px) {
   .photos__sentence {
-    margin: 0 auto 0 0;
+    z-index: 0;
+    position: unset;
+    max-width: 830px;
+    text-align: center;
+    padding: 39px 46px 50px;
+    margin: 0px auto -24px auto;
   }
 }
 
 @media all and (max-width: 430px) {
   .photos__sentence {
-    padding: 39px 30px 0;
+    padding: 39px 30px 50px;
+    text-align: left;
   }
 }

@@ -5,4 +5,10 @@
   grid-template-columns: repeat(4, 402px);
   grid-template-rows: repeat(1, 157px);
   grid-gap: 20px;
+  overflow: scroll;
+  scrollbar-width: none;
+}
+
+.services__list::-webkit-scrollbar {
+  display: none;
 }

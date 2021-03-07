@@ -7,3 +7,16 @@
   line-height: 132%;
   color: #000;
 }
+
+@media all and (max-width: 1200px) {
+  .photos__sentence-description {
+    text-align: center;
+    max-width: unset;
+  }
+}
+
+@media all and (max-width: 430px) {
+  .photos__sentence-description {
+    text-align: left;
+  }
+}
