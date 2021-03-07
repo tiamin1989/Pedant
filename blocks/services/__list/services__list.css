@@ -1,0 +1,8 @@
+.services__list {
+  margin: 70px 0 133px;
+  padding: 0;
+  display: grid;
+  grid-template-columns: repeat(4, 402px);
+  grid-template-rows: repeat(1, 157px);
+  grid-gap: 20px;
+}

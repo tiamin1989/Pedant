@@ -1,0 +1,12 @@
+.services__item-wrapper {
+  position: relative;
+  padding: 23px 53px 32px;
+  box-sizing: border-box;
+  margin: 0;
+  width: 402px;
+  height: 157px;
+  border: 0;
+  border-radius: 20px;
+  overflow: hidden;
+  transform: translate(-201px, 0);
+}

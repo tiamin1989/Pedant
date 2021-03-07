@@ -1,0 +1,8 @@
+.services__item-image {
+  position: absolute;
+  z-index: -1;
+  top: 0;
+  left: 0;
+  max-width: 402px;
+  background: linear-gradient(0deg, rgba(0, 0, 0, 0.25), rgba(0, 0, 0, 0.25)), url(image.png);
+}

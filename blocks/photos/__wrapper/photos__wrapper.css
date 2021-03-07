@@ -15,5 +15,6 @@
     position: unset;
     width: unset;
     filter: unset;
+    z-index: auto;
   }
 }

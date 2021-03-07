@@ -1,0 +1,11 @@
+@import url('./__description/services__description.css');
+@import url('./__item-description/services__item-description.css');
+@import url('./__item-image/services__item-image.css');
+@import url('./__item-title/services__item-title.css');
+@import url('./__item-wrapper/services__item-wrapper.css');
+@import url('./__list/services__list.css');
+@import url('./__title/services__title.css');
+
+.services {
+  padding: 60px 94px 0;
+}
