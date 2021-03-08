@@ -1,0 +1,31 @@
+.how-to__list-circle {
+  box-sizing: border-box;
+  background-color: #3388D7;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  padding: 0 26px 0;
+  width: 72px;
+  height: 72px;
+  font-family: 'Proxima Nova', Arial, Helvetica, sans-serif;
+  font-style: normal;
+  font-weight: 900;
+  font-size: 36px;
+  line-height: 150%;
+  color: #FFF;
+}
+
+.how-to__list-item:nth-child(odd) > .how-to__list-circle::after {
+  margin-left: 50px;
+  display: inline-table;
+  content: '';
+  width: 120px;
+  height: 8px;
+  background: url('/images/arrow.svg');
+  background-position: center center;
+  background-size: cover;
+}
+
+.how-to__list-item:nth-child(even) {
+  margin-left: 24px;
+}

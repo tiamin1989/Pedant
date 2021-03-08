@@ -1,6 +1,6 @@
 import Select from '../components/Select.js';
 
-function ready() {
+function addListeners() {
   const select = new Select('#select');
   select.resizeSelect(this.selectedItem);
 
@@ -41,4 +41,4 @@ function ready() {
   );
 }
 
-document.addEventListener("DOMContentLoaded", ready);
+document.addEventListener("DOMContentLoaded", addListeners);

@@ -1,0 +1,13 @@
+@import url('./__description-wrapper/how-to__description-wrapper.css');
+@import url('./__description/how-to__description.css');
+@import url('./__list-circle/how-to__list-circle.css');
+@import url('./__list-item-description/how-to__list-item-description.css');
+@import url('./__list-item/how-to__list-item.css');
+@import url('./__list/how-to__list.css');
+@import url('./__phone/how-to__phone.css');
+@import url('./__title/how-to__title.css');
+
+.how-to {
+  display: flex;
+  padding: 0 89px 0;
+}

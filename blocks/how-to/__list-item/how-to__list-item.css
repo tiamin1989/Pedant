@@ -1,0 +1,9 @@
+.how-to__list-item {
+  min-width: 220px;
+  max-width: 220px;
+}
+
+.how-to__list-item:last-child {
+  white-space: nowrap;
+}
+

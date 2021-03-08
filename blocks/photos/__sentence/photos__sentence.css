@@ -18,9 +18,14 @@
   }
 }
 
+@media all and (max-width: 630px) {
+  .photos__sentence {
+    text-align: left;
+  }
+}
+
 @media all and (max-width: 430px) {
   .photos__sentence {
     padding: 39px 30px 50px;
-    text-align: left;
   }
 }

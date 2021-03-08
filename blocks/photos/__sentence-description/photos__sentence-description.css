@@ -15,7 +15,7 @@
   }
 }
 
-@media all and (max-width: 430px) {
+@media all and (max-width: 630px) {
   .photos__sentence-description {
     text-align: left;
   }

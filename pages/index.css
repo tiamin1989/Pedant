@@ -4,6 +4,7 @@
 @import url('../blocks/header/header.css');
 @import url('../blocks/photos/photos.css');
 @import url('../blocks/services/services.css');
+@import url('../blocks/how-to/how-to.css');
 
 .body {
   margin: 0 auto 0;
