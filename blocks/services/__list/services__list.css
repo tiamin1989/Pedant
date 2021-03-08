@@ -12,3 +12,10 @@
 .services__list::-webkit-scrollbar {
   display: none;
 }
+
+@media all and (min-width: 1660px) {
+  .services__list {
+    overflow: visible;
+    transform: translate(-110px, 0);
+  }
+}
