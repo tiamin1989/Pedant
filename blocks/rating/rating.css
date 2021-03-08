@@ -1,0 +1,14 @@
+.rating {
+  display: none;
+  margin: 15px 0 0;
+  width: 126px;
+  height: 36px;
+  background: url('../../images/star.svg') repeat-x;
+  background-size: 20%;
+}
+
+@media all and (max-width: 1320px) {
+  .rating {
+    display: block;
+  }
+}

@@ -14,9 +14,9 @@
   content: '';
   width: 120px;
   height: 8px;
-  background: url('/images/arrow.svg');
+  background: url('/images/arrow.svg') no-repeat;
   background-position: center center;
-  background-size: cover;
+  background-size: 100%;
 }
 
 .how-to__list-item:nth-child(even) {
@@ -26,5 +26,25 @@
 @media all and (max-width: 790px) {
   .how-to__list-item:last-child {
     white-space: normal;
+  }
+}
+
+@media all and (max-width: 634px) {
+  .how-to__list-item::after {
+    margin-left: 19px;
+    margin: 0 0 0 10px;
+  }
+  .how-to__list-item:nth-child(odd) > .how-to__list-circle::after {
+    margin: 0 0 0 10px;
+    margin-left: 43px;
+    width: 92px;
+  }
+  .how-to__list-item {
+    min-height: 165px;
+    min-width: 185px;
+    max-width: 185px;
+  }
+  .how-to__list-item:nth-child(even) {
+    margin-left: 0;
   }
 }

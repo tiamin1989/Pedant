@@ -15,6 +15,13 @@
   }
 }
 
+@media all and (max-width: 634px) {
+  .photos__sentence-description {
+    font-size: 18px;
+    line-height: 132%;
+  }
+}
+
 @media all and (max-width: 630px) {
   .photos__sentence-description {
     text-align: left;

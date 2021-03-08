@@ -7,3 +7,14 @@
   line-height: 150%;
   color: #000;
 }
+
+@media all and (max-width: 634px) {
+  .how-to__description {
+    margin: 25px 0 0;
+    font-size: 18px;
+    line-height: 150%;
+  }
+  .how-to__description:nth-child(2) {
+    margin: 5px 0 0;
+  }
+}

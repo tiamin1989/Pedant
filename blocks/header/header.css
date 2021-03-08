@@ -27,19 +27,19 @@
 
 @media all and (max-width: 1200px) {
   .header {
-    padding: 44px 45px 39px;
+    padding: 31px 45px 39px;
   }
 }
 
 @media all and (max-width: 634px) {
   .header {
-    padding: 44px 34px 39px 18px;
+    padding: 30px 34px 39px 18px;
   }
 }
 
 @media all and (max-width: 430px) {
   .header {
-    padding: 44px 34px 39px 0px;
+    padding: 30px 15px 15px 0px;
   }
 }
 

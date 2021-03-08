@@ -10,11 +10,17 @@
 
 .how-to {
   display: flex;
-  padding: 0 89px 0;
+  padding: 0 89px 78px;
 }
 
 @media all and (max-width: 1200px) {
   .how-to {
-    padding: 0 46px 0;
+    padding: 0 46px 48px;
+  }
+}
+
+@media all and (max-width: 634px) {
+  .how-to {
+    padding: 0 30px 48px;
   }
 }

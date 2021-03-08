@@ -7,3 +7,10 @@
   line-height: 125%;
   color: #000;
 }
+
+@media all and (max-width: 634px) {
+  .how-to__list-item-description {
+    font-size: 14px;
+    line-height: 125%;
+  }
+}

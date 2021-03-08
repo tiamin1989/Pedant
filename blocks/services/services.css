@@ -9,3 +9,9 @@
 .services {
   padding: 0;
 }
+
+@media all and (max-width: 1320px) {
+  .services {
+    display: none;
+  }
+}

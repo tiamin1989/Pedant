@@ -5,6 +5,7 @@
 @import url('../blocks/photos/photos.css');
 @import url('../blocks/services/services.css');
 @import url('../blocks/how-to/how-to.css');
+@import url('../blocks/rating/rating.css');
 
 .body {
   margin: 0 auto 0;

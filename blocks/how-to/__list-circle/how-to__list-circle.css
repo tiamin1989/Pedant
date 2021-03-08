@@ -15,3 +15,11 @@
   line-height: 150%;
   color: #FFF;
 }
+
+@media all and (max-width: 634px) {
+  .how-to__list-circle {
+    padding: 0 18px 0;
+    width: 55px;
+    height: 55px;
+  }
+}

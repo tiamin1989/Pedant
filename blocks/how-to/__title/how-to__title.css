@@ -7,3 +7,10 @@
   line-height: 49px;
   color: #000;
 }
+
+@media all and (max-width: 634px) {
+  .how-to__title {
+    font-size: 24px;
+    line-height: 29px;
+  }
+}
