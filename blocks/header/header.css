@@ -18,7 +18,7 @@
 @import url('./__hamburger-nav-item/header__hamburger-nav-item.css');
 
 .header {
-  padding: 44px 92px 39px;
+  padding: 44px 80px 38px 70px;
   display: flex;
   align-items: center;
   justify-content: center;

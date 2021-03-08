@@ -19,4 +19,7 @@ export default class Select {
     }
     this._resized = false;
   }
+  reszizedTrue() {
+    this._resized = true;
+  }
 }

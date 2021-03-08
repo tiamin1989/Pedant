@@ -1,9 +1,10 @@
 .how-to__phone {
+  padding: 0 60px 0;
   width: 300px;
   object-fit: contain;
 }
 
-@media all and (max-width: 1256px) {
+@media all and (max-width: 1320px) {
   .how-to__phone {
     display: none;
   }

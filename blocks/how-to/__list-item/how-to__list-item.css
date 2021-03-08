@@ -1,10 +1,26 @@
 .how-to__list-item {
+  min-height: 170px;
   min-width: 220px;
-  max-width: 220px;
+  max-width: 225px;
 }
 
 .how-to__list-item:last-child {
   white-space: nowrap;
+}
+
+.how-to__list-item:nth-child(odd) > .how-to__list-circle::after {
+  margin-left: 50px;
+  display: inline-table;
+  content: '';
+  width: 120px;
+  height: 8px;
+  background: url('/images/arrow.svg');
+  background-position: center center;
+  background-size: cover;
+}
+
+.how-to__list-item:nth-child(even) {
+  margin-left: 17px;
 }
 
 @media all and (max-width: 790px) {

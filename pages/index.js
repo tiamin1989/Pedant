@@ -1,18 +1,18 @@
 import Select from '../components/Select.js';
 
+const select = new Select('#select');
+
 function addListeners() {
-  const select = new Select('#select');
-  select.resizeSelect(this.selectedItem);
 
   document.getElementById('select').addEventListener(
     'change',
-    function () { select.resizeSelect(this.selectedItem); },
+    function () { select.resizeSelect(); },
     false
   );
 
   document.getElementById('select').addEventListener(
     'blur',
-    function () { select.resizeSelect(this.selectedItem); },
+    function () { select.resizeSelect(); },
     false
   );
 
@@ -39,6 +39,7 @@ function addListeners() {
     },
     false
   );
+
 }
 
 document.addEventListener("DOMContentLoaded", addListeners);
