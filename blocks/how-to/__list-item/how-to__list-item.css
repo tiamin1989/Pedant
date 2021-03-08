@@ -7,3 +7,8 @@
   white-space: nowrap;
 }
 
+@media all and (max-width: 790px) {
+  .how-to__list-item:last-child {
+    white-space: normal;
+  }
+}

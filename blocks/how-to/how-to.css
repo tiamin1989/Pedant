@@ -6,8 +6,15 @@
 @import url('./__list/how-to__list.css');
 @import url('./__phone/how-to__phone.css');
 @import url('./__title/how-to__title.css');
+@import url('./__list-item-text/how-to__list-item-text.css');
 
 .how-to {
   display: flex;
   padding: 0 89px 0;
+}
+
+@media all and (max-width: 1200px) {
+  .how-to {
+    padding: 0 46px 0;
+  }
 }

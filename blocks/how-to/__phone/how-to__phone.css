@@ -2,3 +2,9 @@
   width: 300px;
   object-fit: contain;
 }
+
+@media all and (max-width: 1256px) {
+  .how-to__phone {
+    display: none;
+  }
+}

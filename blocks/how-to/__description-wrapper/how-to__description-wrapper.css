@@ -1,3 +1,9 @@
 .how-to__description-wrapper {
   min-width: 790px;
 }
+
+@media all and (max-width: 1256px) {
+  .how-to__description-wrapper {
+    min-width: unset;
+  }
+}
