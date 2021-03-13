@@ -14,7 +14,7 @@
   content: '';
   width: 120px;
   height: 8px;
-  background: url('/images/arrow.svg') no-repeat;
+  background: url('./images/arrow.svg') no-repeat;
   background-position: center center;
   background-size: 100%;
 }
@@ -34,16 +34,19 @@
     margin-left: 19px;
     margin: 0 0 0 10px;
   }
+
   .how-to__list-item:nth-child(odd) > .how-to__list-circle::after {
     margin: 0 0 0 10px;
     margin-left: 43px;
     width: 92px;
   }
+
   .how-to__list-item {
     min-height: 165px;
     min-width: 185px;
     max-width: 185px;
   }
+
   .how-to__list-item:nth-child(even) {
     margin-left: 0;
   }
