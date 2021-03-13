@@ -14,7 +14,7 @@
   content: '';
   width: 120px;
   height: 8px;
-  background: url('./images/arrow.svg') no-repeat;
+  background: url('../../../images/arrow.svg') no-repeat;
   background-position: center center;
   background-size: 100%;
 }
