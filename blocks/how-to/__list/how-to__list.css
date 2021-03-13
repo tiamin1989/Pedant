@@ -7,3 +7,8 @@
   max-width: 540px;
 }
 
+@media all and (max-width: 634px) {
+  .how-to__list {
+    max-width: 315px;
+  }
+}

@@ -12,5 +12,6 @@
   .how-to__list-item-description {
     font-size: 14px;
     line-height: 125%;
+    max-width: 120px;
   }
 }
