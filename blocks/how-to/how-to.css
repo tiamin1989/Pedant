@@ -19,7 +19,13 @@
   }
 }
 
-@media all and (max-width: 634px) {
+@media all and (max-width: 630px) {
+  .how-to {
+    padding: 0 46px 48px;
+  }
+}
+
+@media all and (max-width: 430px) {
   .how-to {
     padding: 0 30px 48px;
   }
