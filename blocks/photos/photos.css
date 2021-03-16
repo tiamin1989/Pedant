@@ -6,14 +6,19 @@
 @import url('./__sentence-title/photos__sentence-title.css');
 @import url('./__sentence/photos__sentence.css');
 @import url('./__wrapper/photos__wrapper.css');
-@import url('./__photo/photos__photo.css');
 @import url('./__request-contact/__request-contact_regular/photos__request-contact_regular.css');
 
 .photos {
   padding: 35px 0 0;
   position: relative;
   max-width: 1440px;
-  height: 556px;
+  height: calc(100vw * 0.3861);
+}
+
+@media all and (min-width: 1440px) {
+  .photos {
+    height: 556px;
+  }
 }
 
 @media all and (max-width: 1200px) {
